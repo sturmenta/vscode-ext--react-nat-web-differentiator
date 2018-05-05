@@ -1,0 +1,45 @@
+{
+	"icon": "icon.png",
+	"name": "react-nat-web-differentiator",
+	"displayName": "React-nat-web color differentiator",
+	"description": "Color native and web code to differentiate them",
+	"version": "0.0.1",
+	"publisher": "sturmenta",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension",
+	"keywords": [
+		"react",
+		"native",
+		"web",
+		"colored",
+		"differentiator"
+	],
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"vscode": "^1.1.17",
+		"typescript": "^2.5.3",
+		"@types/node": "7.0.4"
+	},
+	"bugs": {
+		"url": "https://github.com/sturmenta/vscode-ext--react-nat-web-differentiator/issues"
+	},
+	"repository": {
+			"type": "git",
+			"url": "https://github.com/sturmenta/vscode-ext--react-nat-web-differentiator.git"
+	},
+	"homepage": "https://github.com/sturmenta/vscode-ext--react-nat-web-differentiator/blob/master/README.md"
+}
