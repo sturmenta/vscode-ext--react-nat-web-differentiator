@@ -3,7 +3,7 @@
 	"name": "react-nat-web-differentiator",
 	"displayName": "React-nat-web color differentiator",
 	"description": "Color native and web code to differentiate them",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "sturmenta",
 	"license": "MIT",
 	"engines": {

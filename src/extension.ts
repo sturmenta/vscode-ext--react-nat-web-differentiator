@@ -63,8 +63,8 @@ export function activate(context: vscode.ExtensionContext) {
 			if (!activeEditor) return;
 			const text = activeEditor.document.getText();
 			//
-			const web_regEx = /\/\*.*\*web\*\/|.*\/\/web|\/\*web\*\/.*|.*start_web[\s\S]*?end_web/gm;
-			const native_regEx = /\/\*.*\*native\*\/|.*\/\/native|\/\*native\*\/.*|.*start_native[\s\S]*?end_native/gm;
+			const web_regEx = /\/\*.*\*web\*\/|.*\/\/web|\/\*web\*\/.*|.*start_web[\s\S]*?end_web.*/gm;
+			const native_regEx = /\/\*.*\*native\*\/|.*\/\/native|\/\*native\*\/.*|.*start_native[\s\S]*?end_native.*/gm;
 			//
 			const web_area: vscode.DecorationOptions[] = [];
 			const native_area: vscode.DecorationOptions[] = [];

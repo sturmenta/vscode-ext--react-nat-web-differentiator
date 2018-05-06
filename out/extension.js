@@ -85,8 +85,8 @@ function activate(context) {
                     return;
                 var text = activeEditor.document.getText();
                 //
-                var web_regEx = /\/\*.*\*web\*\/|.*\/\/web|\/\*web\*\/.*|.*start_web[\s\S]*?end_web/gm;
-                var native_regEx = /\/\*.*\*native\*\/|.*\/\/native|\/\*native\*\/.*|.*start_native[\s\S]*?end_native/gm;
+                var web_regEx = /\/\*.*\*web\*\/|.*\/\/web|\/\*web\*\/.*|.*start_web[\s\S]*?end_web.*/gm;
+                var native_regEx = /\/\*.*\*native\*\/|.*\/\/native|\/\*native\*\/.*|.*start_native[\s\S]*?end_native.*/gm;
                 //
                 var web_area = [];
                 var native_area = [];
